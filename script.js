@@ -11,7 +11,7 @@ const restartbtn = document.querySelector(".restart-btn");
 
 
 let highscore=0;
-let time=10;
+let time=60;
  
 const hitReset = function () {
     hit.textContent = Math.floor(Math.random() * 10);
