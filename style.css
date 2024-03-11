@@ -1,0 +1,96 @@
+body,html{
+    background-color: #FFE7E7;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.panel{
+    background-color: white;
+    width: 80%;
+    height: 80%;
+
+    border-radius: 1rem;
+    overflow: hidden;
+
+    
+}
+.panel-top{
+    background-color: #944E63;
+    height: 5rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;  
+    
+}
+.attr{
+    background-color: #B47B84;
+    padding: .25rem;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.panel-el{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.panel-bott{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bubble{
+    background-color: #c05d5d;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 50%;
+    margin:5px;
+
+    text-align: center;
+    width:20px ;
+    height: 20px;
+}
+.bubble:hover{
+    background-color:#f38686;
+    cursor: pointer;
+}
+
+.msgpanel{
+    color:#944E63;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:calc( 100% - 5rem);
+
+    font-size: 50px;
+    /* border: 2px solid red; */
+}
+
+.restart-btn{
+    font-size: 35px;
+    margin-top: 2rem;
+    background-color: #944E63;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.restart-btn:hover{
+    background-color: #f38686;
+}
+
+.hidden{
+    display: none;
+}
